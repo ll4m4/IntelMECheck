@@ -8,7 +8,11 @@ I had to use wavs due to TTS not outputting sound when the script is run
 in the background.
 
 The script needs to be added to task scheduler.
+
 Security options: Run whether user is logged in or not.
+
 Trigger: At System Startup
-Action: Start a program: <full path to python executable> <full path to IntelMECheck.py>
+
+Action: Start a program: \<full path to python executable\> \<full path to IntelMECheck.py\>
+
 eg: c:\Users\someuser\AppData\Local\Programs\Python\Python310\python.exe c:\wherever\IntelMECheck.py
